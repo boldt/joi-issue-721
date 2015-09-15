@@ -9,7 +9,7 @@ var schema = {
 var data = {
     name: 'asd',
     roles: ['admin', 'moderator'],
-    gender: ['wsate']
+    gender: ['waste']
 };
 
 Joi.assert(data, schema);
