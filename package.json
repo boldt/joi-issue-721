@@ -1,0 +1,8 @@
+{
+  "name": "joi-issue-721",
+  "version": "0.0.0",
+  "main": "test.js",
+  "dependencies": {
+    "joi": "~6.7.0"
+  }
+}
