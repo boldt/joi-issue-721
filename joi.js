@@ -12,5 +12,7 @@ var data = {
     gender: ['waste']
 };
 
-Joi.assert(data, schema);
-
+Joi.validate(data, schema, function (err, value) {
+	console.log("Error", err);
+	console.log("Value", value);
+});
